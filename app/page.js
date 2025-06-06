@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
       <section className="bg-gray-50 py-10 px-4 text-center">
         <h2 className="text-2xl font-bold mb-6">Our Products</h2>
         <p className="mb-4 text-gray-700">We offer a wide range of agricultural and food products tailored to international standards.</p>
-        <a href="/products" className="inline-block px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">View Products</a>
+        <Link href="/products" className="inline-block px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">View Products</Link>
       </section>
 
     </div>
